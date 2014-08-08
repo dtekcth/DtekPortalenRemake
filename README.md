@@ -1,4 +1,10 @@
 DtekPortalenRemake
 ==================
 
-The neverending project
+The neverending project.
+
+Dependencies:
+Django
+Zinnia
+
+(todo: write readme)
