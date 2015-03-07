@@ -1,0 +1,11 @@
+img#dtek-logo {
+    height: 250px;
+    margin-top: 20px;
+}
+
+.slider-bg {
+    width: 100vw;
+    left: 0;
+    height: 400px;
+    background-color: #333333;
+}
