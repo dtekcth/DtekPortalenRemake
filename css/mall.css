@@ -1,17 +1,16 @@
 img#dtek-logo {
+    position: relative;
     height: 250px;
-    margin-top: 20px;
-
+    top: 20px;
 }
 
 .slider-bg {
     height: 400px;
-    background-color: #333333;
-    position: fixed;
-    top: 220;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    position: relative;
+    left: calc((960px - 100vw)/2);
     z-index: -1;
+    background-color: #333333;
 }
 
 .fake-slider {
