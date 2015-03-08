@@ -1,16 +1,46 @@
 body {
+    background-color: #eee;
     color: #333;
 }
 
 img#dtek-logo {
     position: relative;
     height: 200px;
-    top: 30px;
-    left: 30px;
+    top: 15px;
+    left: 10px;
+}
+
+ul.navbar-list {
+    position: relative;
+    bottom: -7;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    padding: 7px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 4px 0px #dddddd;
+    z-index: -2;
 }
 
 .header {
     height: 170px;
+}
+
+.header .navbar-item {
+    font-size: 1.65rem;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header .navbar-item:hover {
+    color: #F35E22;
+}
+
+.header .navbar-item .arrow-down {
+    color: #999;
+    font-size: 1.4rem;
 }
 
 .slider-bg {
@@ -27,14 +57,8 @@ img#dtek-logo {
     height: 300px;
     width: 960px;
     margin: 0px auto;
-    background-image: url('../images/fake-slider-1.jpg');
-}
-
-.fake-slider span {
-    font-size: 15em;
-    color: white;
-    position: relative;
-    left: 250px;
+    background-image: url('../images/fake-slider-2.png');
+.    border: 5px solid #aaa;
 }
 
 .login-button {
@@ -43,10 +67,12 @@ img#dtek-logo {
     top: 0px;
     font-size: 1em;
     text-decoration: none;
-    //background-color: #f35e22;
-    background-color: #eee;
+    background-color: #fff;
     color: #333;
     padding: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: inline;
 }
 
 .menu {
@@ -80,25 +106,52 @@ footer {
 }
 
 .newssection article {
-    padding: 1rem;
+    padding: 25px;
     border: 2px solid transparent;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-right: -23px;
+.    margin-bottom: 20px;
 }
 
 .newssection h2 {
     padding-left: 1rem;
 }
 
-.newssection article:hover {
-    background-color: #f2f2f5;
-    border: 2px solid #e0e0e0;
-    
+article.short-news > header > h4 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .floating {
     position: fixed;
 }
 
-#lunch a {
+aside#main-sidebar a {
     text-decoration: none;
-    color: #333;
+}
+
+aside#main-sidebar {
+    .    background-color: #f0f0f0;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-top: none;
+    padding: 10px;
+    padding-top: 20px;
+    position: relative;
+    top: -15px;
+}
+
+aside#main-sidebar > section > p.sidebar-small-header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+aside#main-sidebar > section#booking {
+    padding-top: 17px;
+}
+
+aside#main-sidebar > section#booking img.bus-icon {
+    margin-right: 10px;
 }
