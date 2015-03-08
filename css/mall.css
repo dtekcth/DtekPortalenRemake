@@ -1,7 +1,11 @@
 img#dtek-logo {
     position: relative;
     height: 250px;
-    top: 20px;
+    top: 10px;
+}
+
+.header {
+    height: 210px;
 }
 
 .slider-bg {
@@ -20,12 +24,35 @@ img#dtek-logo {
     background-image: url('../images/fake-slider-1.jpg');
 }
 
+.login-button {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    font-size: 1em;
+    text-decoration: none;
+    //background-color: #f35e22;
+    background-color: #eee;
+    color: #333;
+    padding: 7px;
+}
+
 .menu {
-    margin-top: 150px;
-    font-size: 3rem;
-    font-weight: 200;
+    margin-top: 140px;
+    font-size: 2.8rem;
+    font-weight: 300;
+    height: 100px;
 }
 
 .menu-item {
     display: inline;
+    margin-right: 30px;
+}
+
+footer {
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+    width: 100vw;
+    left: calc((960px - 100vw)/2);
+    bottom: 0px;
 }
