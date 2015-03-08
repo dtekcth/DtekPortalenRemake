@@ -62,18 +62,26 @@ ul.navbar-list {
     border-top: 5px solid #555;
 }
 
-.login-button {
+div#login {
     position: absolute;
-    right: 30px;
-    top: 0px;
+    right: 0px;
+    top: 17px;
     font-size: 1em;
     text-decoration: none;
-    background-color: #fff;
     color: #333;
-    padding: 7px;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;
     display: inline;
+    height: 100px;
+}
+
+div#login .button-primary {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div#login label {
+    position: absolute;
+    left: 0;
+    bottom: 7;
 }
 
 .menu {

@@ -1,4 +1,6 @@
 DtekPortalenRemake
 ==================
 
-design mockup skoj grejer
+100% fulhack
+
+försök inte resiza
