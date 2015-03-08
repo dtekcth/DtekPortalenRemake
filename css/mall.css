@@ -24,6 +24,13 @@ img#dtek-logo {
     background-image: url('../images/fake-slider-1.jpg');
 }
 
+.fake-slider span {
+    font-size: 15em;
+    color: white;
+    position: relative;
+    left: 250px;
+}
+
 .login-button {
     position: absolute;
     right: 30px;
