@@ -9,6 +9,7 @@ img#dtek-logo {
     height: 200px;
     top: 15px;
     left: 10px;
+    z-index: 2;
 }
 
 ul.navbar-list {
@@ -18,10 +19,11 @@ ul.navbar-list {
     background: #ffffff;
     border: 1px solid #ddd;
     border-bottom: 0px;
-    padding: 7px;
+    padding: 15px;
     padding-left: 20px;
     box-shadow: 0px 0px 4px 0px #dddddd;
-    z-index: -2;
+    z-index: 0;
+    display: flex;
 }
 
 .header {
@@ -35,8 +37,13 @@ ul.navbar-list {
     padding-right: 5px;
 }
 
-.header .navbar-item:hover {
+.header .navbar-item a {
+    color: #333;
+    text-decoration: none;
+}
+.header .navbar-item a:hover {
     color: #F35E22;
+    text-decoration: none;
 }
 
 .header .navbar-item .arrow-down {
@@ -44,22 +51,15 @@ ul.navbar-list {
     font-size: 1.4rem;
 }
 
-.slider-bg {
-    height: 300px;
-    width: 100vw;
-    position: relative;
-    left: calc((960px - 100vw)/2);
-    z-index: -1;
-    background-color: #333333;
-    margin-bottom: 15px;    
-}
 
 .fake-slider {
+    position: relative;
     height: 300px;
     width: 960px;
     margin: 0px auto;
     background-image: url('../images/fake-slider-2.png');
     border-top: 5px solid #555;
+    z-index: 1;
 }
 
 div#login {
@@ -74,9 +74,14 @@ div#login {
 }
 
 div#login .button-primary {
+    background-color: #666;
+    border: none;
     position: absolute;
     right: 0;
     bottom: 0;
+}
+div#login .button-primary:hover {
+    background-color: #555;
 }
 div#login label {
     position: absolute;
