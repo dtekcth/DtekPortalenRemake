@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <title>Datateknologsektionen Chalmers</title>
     <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600,200" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/mall.css">
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/mall.css">
+    <link rel="icon" type="image/png" href="../images/favicon.ico">
   </head>
   <body>
     <div class="container">
       <div class="row">
 	<div class="twelve columns u-full-width header">
-	  <img src="images/logo.png" id="dtek-logo" class="u-pull-left" alt="Loggan">
+	  <img src="../images/logo.png" id="dtek-logo" class="u-pull-left" alt="Loggan">
           <div id="login">
 	    <form>
 	      <input class="" placeholder="E-post / CID" id="exampleEmailInput" type="email" >
@@ -28,9 +28,10 @@
 	  </div>
 	  <nav class="navbar">
 	    <ul class="u-pull-right navbar-list menu">
-	      <li class="navbar-item menu-item"><a href="#">Sektionen <span class="arrow-down">▼</span></a>
+	      <li class="navbar-item menu-item">
+		<a href="#">Sektionen <span class="arrow-down">▼</span></a>
 	      </li>
-	      <li class="navbar-item menu-item"><a href="feed/styret.html">Feed</a></li>
+	      <li class="navbar-item menu-item"><a href="#">Feed</a></li>
 	      <li class="navbar-item menu-item"><a href="#">Studier</a></li>
               <li class="navbar-item menu-item"><a href="#">Arbetsliv</a></li>
               <li class="navbar-item menu-item"><a href="#">Arrangemang</a></li>
@@ -39,19 +40,17 @@
 	  </nav>
 	</div>
       </div>
-      <div class="row">
-	<div class="fake-slider"></div>
-      </div>
-      <div class="row">
+      <div class="row main-feed">
 	<div class="eight columns">
           <section class="newssection">
-            <article class="short-news">
+            <article class="news" id="kontantfritt">
               <header>
 		<h4>Utrota kontanter</h4>
 		<h6>av Styret 2015-04-11</h6>
 	      </header>
               <p>Sektionsstyrelsen har beslutat att i möjligaste mån göra sektionen kontantfri. Bakgrunden till detta är att alla stora banker idag fasar ut sin kontanthantering, vilket gör det oerhört svårt för sektionen att både sätta in och ta ut kontanter.</p><p> Denna utveckling har lett till att sektionsstyrelsen valt att köpa in dosor från iZettle, för att möjliggöra kortbetalning på sektionens alla arrangemang.</p>
-	      <a href="index-exp.html" class="button">Visa hela</a>
+              <p>Med start i LP4 kommer alla pubar och afterschooler att vara helt kontantfria och endast kortbetalning med bankkort kommer att vara möjlig. I dagsläget kommer det inte att kunna erbjudas betalning med kårkort, något som styrelsen gärna ser sker i framtiden. Denna övergång har fungerat väl på andra teknologsektioner och följer även den riktning som hela studentkåren är på väg mot. Styrelsen ser med spänning fram emot den kontantfria framtiden!</p>
+              <img src="https://scontent-ams.xx.fbcdn.net/hphotos-xpf1/l/t31.0-8/11004547_777017469001151_3118055651562816515_o.jpg" alt="Information om kontantfritt på pubar och afterschooler">
             </article>
             <article class="short-news">
               <header>
@@ -63,36 +62,25 @@
           </section>
         </div>
         <div class="four columns">
-          <aside id="main-sidebar">
-	    <section id="booking">
-	      <header><img src="images/minibuss.png" class="u-pull-left bus-icon" height="28px"><h5>Boka databussen</h5></header>
-	      <p>Status: Upptagen 13.00 - 17.00</p>
-	      <a href="#" class="button">Till bokningen »</a>
-	    </section>
-	    <hr>
-            <section id="lunch">
-              <header><h5>Dagens lunch</h5></header>
-              <p class="sidebar-small-header">Linsen</p>
-              <p>Ingen lunch idag</p>
-              <p class="sidebar-small-header">Kårrestaurangen</p>
-              <p>Veckans soppa: Broccoli- & palsternackssoppa, smulad Kvibille gräddädel</p>
-	    </section>
-            <hr>
-	    <section class="links">
-	      <header><h5>Bra länkar</h5></header>
-	      <ul>
-		<li><a href="http://dtek.se/wiki">DTEK wiki</a></li>
-		<li><a href="http://hagesjo.se">Hagesjo.se</a></li>
-		<li><a href="http://www.cbc.chalmers.se/">Chalmers Ballong Corps</a></li>
-	      </ul>
-	    </section>
-	    <hr>
-	    <section class="links">
-	      <header><h5>Sammarbetspartner</h5></header>
-	      <img src="images/rotarypub-logga.png" width="250">
-	    </section>
+          <aside id="main-sidebar" class="info">
+            <section class="links">
+              <header><h5>Kontaktinformation</h5></header>
+                <p class="u-pull-left" style="width: 25%;"><strong>Adress:</strong></p>
+                <p class="u-pull-right" style="width: 75%; margin-bottom: 0;">
+                  Datateknologsektionen
+                  Rännvägen 8 <br>
+                  412 58 Göteborg</p>
+                <br><br><br><br>
+                <p><strong>Facebook:</strong> <a href="https://facebook.com/dtekchalmers" target="_blank">Datateknologsektionen</a></p>
+                <p><strong>E-post:</strong> <a href="mailto://styret@dtek.se" target="_blank">styret@dtek.se</a></p>
+                <p><strong>Bankgiro:</strong> 289-8179</p>
+            </section>
           </aside>
+          <a class="twitter-timeline"  href="https://twitter.com/datachalmers" data-widget-id="575016926960877568">Tweets by @datachalmers</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+          </script>
         </div>
       </div>
+    </div>
   </body>
 </html>

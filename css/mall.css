@@ -41,6 +41,7 @@ ul.navbar-list {
     color: #333;
     text-decoration: none;
 }
+
 .header .navbar-item a:hover {
     color: #F35E22;
     text-decoration: none;
@@ -133,7 +134,7 @@ footer {
     background-color: #fff;
     box-shadow: 0px 0px 5px #ccc;
     margin-right: -23px;
-.    margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .newssection h2 {
@@ -147,6 +148,10 @@ article.short-news > header > h4 {
 
 .floating {
     position: fixed;
+}
+
+.info {
+    margin-bottom: 16px;
 }
 
 aside#main-sidebar a {
