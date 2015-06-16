@@ -1,8 +1,43 @@
 DtekPortalenRemake
 ==================
 
-100% fulhack
+## Howto setup
+First off, install ruby and gem (ruby package manager). Next up, install needed packages:
 
-försök inte resiza
+```
+$ gem install data_mapper dm-sqlite-adapter sqlite3 sinatra
+```
 
-En preview av vårt utkast går att nå på [dtekportal.jassob.nu](http://dtekportal.jassob.nu)
+*TODO*: ^ add correct packages.
+
+## Develop
+We use a simple variant of MVC (Model-View-Controller). 
+
+### Controllers
+Controllers typically serve up views and handle the http requests. To add your own controller (aside from the MainController), simply copy the MainController into a new file:
+
+```
+$ cp controllers/MainController.rb controllers/YourController.rb
+```
+
+Next up add the route in config.ru
+
+```ruby
+map('/your-route') { run YourController }
+```
+
+Every path '/your-route/*' will now be handled by YourController.rb.
+
+#### Requests
+Sinatra uses a simple request mapping:
+
+```ruby
+get '/foo/bar/:name' {
+	"Hello ${params[:name]}"
+}
+```
+
+Substitute 'get' with 'post' in order to match a post-request.
+
+#### Sinatra
+Sinatra is simple and useful, google it for the naughty and sexy documentation!
