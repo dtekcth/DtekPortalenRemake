@@ -1,6 +1,8 @@
 DtekPortalenRemake
 ==================
 
-The neverending project.
+100% fulhack
 
-(todo: write readme)
+försök inte resiza
+
+En preview av vårt utkast går att nå på [dtekportal.jassob.nu](http://dtekportal.jassob.nu)
