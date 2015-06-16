@@ -1,0 +1,182 @@
+body {
+    background-color: #eee;
+    background-image: url('../images/grey.png');
+    color: #333;
+}
+
+img#dtek-logo {
+    position: relative;
+    height: 200px;
+    top: 15px;
+    left: 10px;
+    z-index: 2;
+}
+
+ul.navbar-list {
+    position: relative;
+    bottom: -7;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    padding: 15px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 4px 0px #dddddd;
+    z-index: 0;
+    display: flex;
+}
+
+.header {
+    height: 170px;
+}
+
+.header .navbar-item {
+    font-size: 1.65rem;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header .navbar-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.header .navbar-item a:hover {
+    color: #F35E22;
+    text-decoration: none;
+}
+
+.header .navbar-item .arrow-down {
+    color: #999;
+    font-size: 1.4rem;
+}
+
+
+.fake-slider {
+    position: relative;
+    height: 300px;
+    width: 960px;
+    margin: 0px auto;
+    background-image: url('../images/fake-slider-2.png');
+    border-top: 5px solid #555;
+    z-index: 1;
+}
+
+div#login {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #333;
+    display: inline;
+    height: 100px;
+}
+
+div#login .button-primary {
+    background-color: #666;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div#login .button-primary:hover {
+    background-color: #555;
+}
+div#login label {
+    position: absolute;
+    left: 0;
+    bottom: 7;
+}
+
+.menu {
+    margin-top: 110px;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 25px;
+}
+
+footer {
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+    width: 100vw;
+    left: calc((960px - 100vw)/2);
+    bottom: 0px;
+}
+
+#main-feed {
+    
+}
+
+.newssection img {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.newssection {
+    margin-top: 16px;
+}
+
+.newssection a {
+    text-decoration: none;
+    color: #333;
+}
+
+.newssection article {
+    padding: 25px;
+    border: 2px solid transparent;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-right: -23px;
+    margin-bottom: 20px;
+}
+
+.newssection h2 {
+    padding-left: 1rem;
+}
+
+article.short-news > header > h4 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.floating {
+    position: fixed;
+}
+
+.info {
+    margin-bottom: 16px;
+}
+
+aside#main-sidebar a {
+    text-decoration: none;
+}
+
+aside#main-sidebar {
+    .    background-color: #f0f0f0;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-top: none;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+aside#main-sidebar > section > p.sidebar-small-header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+aside#main-sidebar > section#booking {
+    padding-top: 17px;
+}
+
+aside#main-sidebar > section#booking img.bus-icon {
+    margin-right: 10px;
+}
