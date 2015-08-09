@@ -50,6 +50,14 @@ Substitute 'get' with 'post' in order to match a post-request.
 ##### Sinatra
 Sinatra is simple and useful, google it for the naughty and sexy documentation!
 
+#### Models
+Models is in models directory, KISS. To make database models, either learn from existing ones or lookup how to use datamapper :)
+
+#### Helpers
+Helper classes/modules, these should not be rendered and are most often general modules that isn't site specific.
+
+### Specific parts
+
 #### Navbar
 The nav bar is simple to use. Simply
 
