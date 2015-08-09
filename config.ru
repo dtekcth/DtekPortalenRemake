@@ -13,5 +13,12 @@ Dir.glob('./{models,helpers,controllers}/*.rb').each { | f | require f }
 # Finalize datamapper
 DataMapper.finalize
 
+Navbar.RegisterDropdownItem("#", "Sektionen", [])
+Navbar.RegisterItem("feed/styret.html", "Feed")
+Navbar.RegisterItem("#", "Studier")
+Navbar.RegisterItem("#", "Arbetsliv")
+Navbar.RegisterItem("#", "Arrangemang")
+Navbar.RegisterItem("#", "Företag")
+
 # Include the routes
 map ('/') { run MainController }
