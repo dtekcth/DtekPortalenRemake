@@ -34,7 +34,7 @@ Next up add the route in config.ru
 map('/your-route') { run YourController }
 ```
 
-Every path '/your-route/*' will now be handled by YourController.rb.
+Every path '/your-route/<everything>' will now be handled by YourController.rb.
 
 ##### Requests
 Sinatra uses a simple request mapping:
@@ -49,3 +49,13 @@ Substitute 'get' with 'post' in order to match a post-request.
 
 ##### Sinatra
 Sinatra is simple and useful, google it for the naughty and sexy documentation!
+
+#### Navbar
+The nav bar is simple to use. Simply
+
+```ruby
+Navbar.RegisterItem("/my-awesome-handler", "My Awesome Item")
+```
+
+Dropdowns is a planned feature, but not yet implemented.
+*TODO: add support for dropdowns*
