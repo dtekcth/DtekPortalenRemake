@@ -1,43 +1,31 @@
 class NavbarItem
-    attr_accessor :name
-    attr_accessor :route
+    include JSONable
+
+    attr_accessor :name, :route
 
     def initialize(route, name)
-        @name = name
-        @route = route
-    end
-
-    def Render()
-        "<li class=\"navbar-item menu-item\"><a href=\"#{@route}\">#{@name}</a></li>"
+        self.name = name
+        self.route = route
     end
 end
 
 class DropdownNavbarItem < NavbarItem
-    @mItems = []
+    include JSONable
+
+    attr_accessor :name, :route, :mItems
 
     def initialize(route, name, items)
-        @name = name
-        @route = route
-        @mItems = []
+        self.name = name
+        self.route = route
+        self.mItems = []
     end
 
     def AddItem(item)
-        @mItems.push item
+        self.mItems.push item
     end
 
     def GetItems()
-        @mItems
-    end
-
-    def Render()
-        output = "<li class=\"navbar-item menu-item dropdown-item\">#{@name} <span class=\"arrow-down\">▼</span>"
-        output += "<ul class=\"u-pull-right dropdown-menu\">"
-        @mItems.each do | item |
-            output += item.Render()
-        end
-        output += "</ul></li>"
-
-        output
+        self.mItems
     end
 end
 

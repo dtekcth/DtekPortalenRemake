@@ -40,3 +40,4 @@ Navbar.RegisterItem("#", "Företag")
 
 # Include the routes
 map ('/') { run MainController }
+map ('/nav') { run NavController }
