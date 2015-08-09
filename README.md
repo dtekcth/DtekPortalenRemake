@@ -18,6 +18,8 @@ $ rackup -p <PORT>
 
 where **<PORT>** is any arbitrary port you want to host it using. Then access it by visiting http://localhost:**<PORT>**/
 
+Next up you want to edit the configuration file, which can be found in /configuration.rb. It is pretty self-explanatory.
+
 ### Develop
 We use a simple variant of MVC (Model-View-Controller). 
 
