@@ -4,3 +4,4 @@
 *.db
 .module-cache
 .DS_Store
+configuration.rb
