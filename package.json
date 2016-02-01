@@ -1,0 +1,29 @@
+{
+  "name": "dtek-portalen-remake",
+  "version": "0.0.0",
+  "description": "DTeks portal (remake)",
+  "private": true,
+  "main": "./build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtekcth/DtekPortalenRemake.git"
+  },
+  "keywords": [
+    "dtek",
+    "dhack",
+    "portal"
+  ],
+  "author": "Datateknologsektionen Chalmers Studentkår",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtekcth/DtekPortalenRemake/issues"
+  },
+  "homepage": "https://github.com/dtekcth/DtekPortalenRemake#readme",
+  "engines": {
+    "node": ">=4.2.6"
+  },
+  "dependencies": {}
+}

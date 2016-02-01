@@ -1,0 +1,8 @@
+# Ignore the Node.js external module folder.
+node_modules/
+# Ignore the build folder where using npm build will put built, concatenated and compressed files.
+build/
+# We don't want to share certain things with the public. We use a config.dist.json for example configuration.
+config.json
+# Logs are always bad to commit.
+*.log
