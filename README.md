@@ -3,6 +3,8 @@ DtekPortalenRemake
 
 This is a project to remake the DTek portal. (WIP)
 
+This is the loopback branch where testing loopback will take place.
+
 Current todo's
 ------------------
 * Decide which server framework to use.
